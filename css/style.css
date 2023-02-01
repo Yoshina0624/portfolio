@@ -359,20 +359,22 @@ body {
 }
 
 /* about */
-/* .about {
+.about {
 	position: relative;
-} */
+	height: 90vh;
+}
+
 .about_wrapper {
 	display: flex;
 }
 
 .about_img {
-	width: 300px;
-	height: 300px;
-	border-radius: 50%; 
-	/* position: absolute;
-	top: 15%;
-	left: 15%; */
+	width: 250px;
+	height: 250px;
+	/* border-radius: 50%;  */
+	position: absolute;
+	top: 33%;
+	left: 15%;
 }
 
 .about_txt_container {
@@ -381,9 +383,15 @@ body {
 	background-color: #ff9e3c;
 	margin-left: 200px;
 }
+.about_table {
+	position: absolute;
+	top: 33%;
+	left: 35%;
+
+}
 
 table {
-	width: 80%;
+	width: 60%;
 }
 
 .th, .td {
