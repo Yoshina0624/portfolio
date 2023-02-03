@@ -17,12 +17,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet" />
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
 
 
     <title>Keisuke Saito
     </title>
 </head>
-<body>
+<body class="js_body is-active">
+
+    <div class="m_opening js_opening">
+        <div class="m_opening_txt js_opening-txt">
+        <p class="m_opening_heading">Welcome to my PORTFOLIO</p>
+        </div>
+    </div>
+
     <header id="header" class="header">
         <h1 class="header-logo">
             <a href="index.html" class="header-logo-link">Keisuke Saito</a>
@@ -47,13 +57,17 @@
             </ul>
         </nav>
 
-
+        <button class="m_hamburger js_hamburger">
+            <span class="m_hamburger-bar"></span>
+            <span class="m_hamburger-bar"></span>
+            <span class="m_hamburger-bar"></span>
+        </button>
     </header>
 
     <div class="top-kv">
         <div class="top-kv-box">
-            <p class="top-kv-main">Keisuke Saito</p>
-            <p class="top-kv-sub">- あなたの挑戦、私にも手伝わせてくれませんか？ -</p>
+            <p class="top-kv-main js_top-kv-main">Keisuke Saito</p>
+            <p class="top-kv-sub js_top-kv-sub">- あなたの挑戦、私にも手伝わせてくれませんか？ -</p>
         </div>
         
     </div>
@@ -244,8 +258,10 @@
     <!-- jquery cdn -->
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 
+
     <!-- js -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/slider.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
