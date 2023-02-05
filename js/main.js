@@ -1,4 +1,20 @@
 'use strict';
+// ローディング画面
+function loadedPage() {
+    const loadingID = document.getElementById("js_opening");
+    loadingID.classList.add("loaded");
+}
+
+if (!sessionStorage.getItem('visited')) {
+    sessionStorage.setItem('visited', 'first');
+    window.addEventListener('load', function () {
+    setTimeout(loadedPage, 2000);
+    });
+    setTimeout(loadedPage, 5000);
+}else {
+    loadedPage();
+}
+
 /*---------- ハンバーガーメニュー ----------*/
 const hamburger = document.querySelector(".js_hamburger");//ハンバーガーメニューを取得
 const nav = document.querySelector(".js_nav");//ナビゲーションを取得
