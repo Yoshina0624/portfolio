@@ -98,19 +98,14 @@ gsap.timeline()
         }
     });
 
-    gsap.from(".about-wrapper", {
+    gsap.fromTo(".about-wrapper", {
         scrollTrigger: {
         trigger: ".about",
         start: "center bottom",
         end: "center top",
         },
         duration: 1.2,
-        y: 15,
+        y: -50,
         opacity: 0,
         ease: "power2.out",
-        // 複数要素を扱うプロパティ
-        stagger: {
-        from: "start",
-        amount: 1.5
-        }
     });
