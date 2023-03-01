@@ -57,6 +57,51 @@ webStorage();
 //sessionStorageの使い方について
 //https: //developer.mozilla.org/ja/docs/Web/API/Window/sessionStorage
 
+/*---------- アコーディオンメニュー ----------*/
+
+const faq = document.querySelectorAll(".js_faq"); //使用するhtml要素を全て取得する
+faq.forEach(function (element) {
+  const mark = element.querySelector(".js_faq_mark");
+  element.addEventListener("click", () => {
+    if (element.querySelector(".js_faq-a") == null) {
+      element.querySelector(".service_faq_open").classList.add("js_faq-a");
+
+      mark.classList.remove("is-open");
+
+      closingAnim(element.querySelector(".js_faq-a"));
+    } else {
+      element.querySelector(".js_faq-a").classList.remove("js_faq-a");
+
+      mark.classList.add("is-open");
+
+      openingAnim(element.querySelector(".service_faq_open"));
+    }
+  });
+});
+
+const closingAnim = (content) => {
+  gsap.to(content, {
+    height: 0,
+    opacity: 0,
+    duration: 0.5,
+    ease: "Power4.inOut",
+  });
+};
+
+const openingAnim = (content) => {
+  gsap.fromTo(
+    content, {
+      height: 0,
+      opacity: 0,
+    }, {
+      height: "auto",
+      opacity: 1,
+      duration: 0.5,
+      ease: "Power4.inOut",
+    }
+  );
+};
+
     gsap.from(".service-item", {
         scrollTrigger: {
         trigger: ".service-contents",
@@ -102,4 +147,5 @@ webStorage();
         opacity: 0,
         ease: "power2.out",
     });
+
 
