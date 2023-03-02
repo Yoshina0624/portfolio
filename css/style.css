@@ -196,7 +196,6 @@ body {
 @media screen and (min-width: 1080px) {
   .l_header-nav_item:not(:first-child) {
     margin-top: 0;
-    padding-left: 40px;
   }
 }
 
@@ -590,7 +589,7 @@ body {
 
 /* service */
 .section {
-	padding-top: 50px;
+
 	padding-bottom: 100px;
 }
 
@@ -945,7 +944,7 @@ table {
   }
   
   th, td {
-    font-size: 22px;
+    font-size: 18px;
   }
   
   th {
@@ -1261,10 +1260,6 @@ table {
 
 /* ---------- .case_section ---------- */
 
-.case_section:nth-of-type(2n) {
-  background: var(--gray-color02);
-}
-
 @media screen and (min-width: 1200px) {
   .case_section-inner {
     /* display: flex;
@@ -1340,4 +1335,33 @@ table {
   width: 40px;
   height: 40px;
   margin-top: 25px;
+}
+
+/* price */
+.price-title {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.price-table {
+  width: 95%;
+}
+
+.price-tr, .price-td {
+    border: 1px solid #000;
+}
+
+.price-tr {
+  width: 70%;
+}
+
+.price-td {
+  width: 20%;
+}
+
+@media screen and (min-width: 768px) {
+  .price-td {
+    padding-left: 6%;
+  }
 }

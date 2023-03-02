@@ -46,14 +46,20 @@
 </head>
 
 <body class="js_body">
+<div class="m_opening js_opening">
+    <div class="m_opening_txt js_opening-txt">
+    <p class="m_opening_heading">Welcome to my PORTFOLIO</p>
+    </div>
+</div>
+
 <header class="l_header">
     <h1 class="l_header-logo">
     <a href="index.html" class="">Keisuke Saito</a>
     </h1>
     <nav class="l_header-nav js_navigation">
-      <ul class="l_header-nav_list">
+    <ul class="l_header-nav_list">
         <li class="l_header-nav_item">
-        <a href="service.html" class="l_header-nav_link">SERVICE
+        <a href="index.html" class="l_header-nav_link">TOP
         </a></li>
         <li class="l_header-nav_item">
         <a href="skill.html" class="l_header-nav_link orange">SKILL</a></li>
@@ -67,93 +73,10 @@
         <a href="contact.html" class="l_header-nav_link red">CONTACT</a>
         </li>
     </ul>
-      </nav>
+    </nav>
     <button class="m_hamburger js_hamburger">
     <span class="m_hamburger-bar"></span>
     <span class="m_hamburger-bar"></span>
     <span class="m_hamburger-bar"></span>
     </button>
 </header>
-
-<main class="l_contents contact">
-    <h2 class="title">CONTACT</h2>
-    <form action="" class="contact-form">
-    <dl class="form-body">
-        <div class="form-unit">
-        <dt class="form-unit-head">お名前</dt>
-        <dd class="form-unit-contents">
-            <input type="text" placeholder="山田 太郎" class="form-input" />
-        </dd>
-        </div>
-
-        <div class="form-unit">
-        <dt class="form-unit-head">メールアドレス</dt>
-        <dd class="form-unit-contents">
-            <input
-            type="email"
-            placeholder="create@example.com"
-            class="form-input"
-            />
-        </dd>
-        </div>
-        <!-- /.form-unit -->
-        <div class="form-unit">
-        <dt class="form-unit-head">電話番号</dt>
-        <dd class="form-unit-contents">
-            <input
-            type="text"
-            placeholder="080-0000-0000"
-            class="form-input"
-            />
-        </dd>
-        </div>
-        <!-- /.form-unit -->
-        
-
-        <div class="form-unit">
-        <dt class="form-unit-head">お問い合わせ内容</dt>
-        <dd class="form-unit-contents">
-            <textarea rows="6" class="form-textarea"></textarea>
-        </dd>
-        </div>
-        <!-- /.form-unit -->
-    </dl>
-
-    <input type="submit" class="form-submit" value="送信" />
-    </form>
-</main>
-
-<footer class="l_footer">
-    <p class="l_footer_logo">Keisuke Saito</p>
-    <ul class="l_sns-list">
-      <li class="l_sns-item"><a href="https://twitter.com/keke_zp51"><img src="img\twitterのアイコン素材 その2.svg" class="twitter" alt=""></a></li>
-    </ul>
-    <ul class="l_footer_list">
-      <li class="l_footer_item">
-        <a href="index.html" class="l_footer_link">TOP</a>
-      </li>
-      <li class="l_footer_item">
-        <a href="skill.html" class="l_footer_link">SKILL</a>
-      </li>
-      <li class="l_footer_item">
-        <a href="work.html" class="l_footer_link">WORKS</a>
-      </li>
-      <li class="l_footer_item">
-        <a href="faq.html" class="l_footer_link">FAQ</a>
-      </li>
-      <li class="l_footer_item">
-        <a href="contact.html" class="l_footer_link">CONTACT</a>
-      </li>
-    </ul>
-    <p class="l_footer-copyright">&copy; 2023 YOFUKASHI</p>
-  </footer>
-
-    <!-- jquery cdn -->
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-
-
-    <!-- js -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="js/slider.js"></script>
-</body>
-</html>
