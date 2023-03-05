@@ -9,9 +9,9 @@
 <meta name="format-detection" content="telephone=no" />
 
 <!-- favicon/webclipicon -->
-<link rel="icon" href="#" type="image/png" />
+<link rel="icon" href="<?php echo esc_url( get_template_directory_uri() . '/img/favicon.jpg' ); ?>" type="image/jpg" />
 <link rel="icon" href="#" type="image/svg+xml" />
-<link rel="apple-touch-icon" href="#" />
+<link rel="apple-touch-icon" href="<?php echo esc_url( get_template_directory_uri() . '/img/favicon.jpg' ); ?>" />
 
 <!-- ogp -->
 <!-- <meta property="og:site_name" content="ZeroPlus Corporate" />
