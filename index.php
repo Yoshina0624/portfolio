@@ -158,7 +158,7 @@
 <div class="m_cta">
       <h2 class="m_cta_copy">お問い合わせはこちら</h2>
       <p class="m_cta_txt">
-        スタートアップのデジタルマーケについて<br />
+        webサイト制作について
         お気軽にご相談ください
       </p>
 
