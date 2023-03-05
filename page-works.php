@@ -70,7 +70,7 @@ $news_query = new WP_Query(
               <div class="case_section_wrapper">
                 <a href="https://keke-sito.com/mosya_free/service_site/">
                 <img
-                  src="img\模写修行セキュリティ会社.png"
+                  src="<?php echo esc_url( get_template_directory_uri() . '/img/模写修行セキュリティ会社.png' ); ?>"
                   width="1016"
                   height="814"
                   alt="仮想セキュリティ会社ホームページ"
@@ -80,8 +80,6 @@ $news_query = new WP_Query(
               </div>
               <!-- /.case_section_wrapper -->
               <div class="case_section_content">
-                <p class="case_section-num">
-                </p>
                 <h2 class="case_section_title">
                   仮想サービス会社ホームページ
                 </h2>
@@ -90,7 +88,7 @@ $news_query = new WP_Query(
                 </p>
                 <p class="case_section_txt">制作期間 : 約4時間</p>
                 <p class="case_section_txt">
-                    <a href="https://moshashugyo.com/">模写修行</a>で配布されているデザインのコーディングを行いました。デザインはしていません。
+                    <a href="https://moshashugyo.com/">模写修行</a>で配布されているデザインのコーディングを行いました。<br>デザインはしていません。
                 </p>
               </div>
               <!-- /.case_section_content -->
@@ -105,7 +103,7 @@ $news_query = new WP_Query(
               <div class="case_section_wrapper">
                 <a href="https://keke-sito.com/mosya_free/burger_shop/">
                 <img
-                  src="img/burger_shop_.png"
+                  src="<?php echo esc_url( get_template_directory_uri() . '/img/burger_shop_.png' ); ?>"
                   width="1016"
                   height="814"
                   alt="ハンバーガーショップのホームページ"
@@ -115,8 +113,6 @@ $news_query = new WP_Query(
               </div>
               <!-- /.case_section_wrapper -->
               <div class="case_section_content">
-                <p class="case_section-num">
-                </p>
                 <h2 class="case_section_title">
                   仮想ハンバーガーショップのホームページ
                 </h2>
@@ -125,7 +121,7 @@ $news_query = new WP_Query(
                 </p>
                 <p class="case_section_txt">制作期間 : 約4時間</p>
                 <p class="case_section_txt">
-                    <a href="https://moshashugyo.com/">模写修行</a>で配布されているデザインのコーディングを行いました。デザインはしていません。
+                    <a href="https://moshashugyo.com/">模写修行</a>で配布されているデザインのコーディングを行いました。<br>デザインはしていません。
                 </p>
               </div>
               <!-- /.case_section_content -->

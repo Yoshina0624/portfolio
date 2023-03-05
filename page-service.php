@@ -14,7 +14,7 @@
                         <li class="service-item">
                                 <div class="service-img-inner">
                                     <img 
-                                    src="img/Icon ionic-ios-paper.png" 
+                                    src="<?php echo esc_url( get_template_directory_uri() . '/img/Icon ionic-ios-paper.png' ); ?>" 
                                     width="96"
                                     height="77"
                                     class="service-img service-img1"
@@ -30,7 +30,7 @@
                         <li class="service-item">
                                 <div class="service-img-inner">
                                     <img 
-                                    src="img/Icon material-computer.png" 
+                                    src="<?php echo esc_url( get_template_directory_uri() . '/img/Icon material-computer.png' ); ?>" 
                                     width="96"
                                     height="77"
                                     class="service-img service-img2"
@@ -46,7 +46,7 @@
                         <li class="service-item">
                                 <div class="service-img-inner">
                                     <img 
-                                    src="img/Icon awesome-handshake.png" 
+                                    src="<?php echo esc_url( get_template_directory_uri() . '/img/Icon awesome-handshake.png' ); ?>" 
                                     width="96"
                                     height="77"
                                     class="service-img service-img3"

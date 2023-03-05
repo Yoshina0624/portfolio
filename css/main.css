@@ -589,8 +589,13 @@ body {
 
 /* service */
 .section {
-
 	padding-bottom: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .service-ttl, .work-ttl, .about-ttl{
+    margin-top: 50px;
+  }
 }
 
 .work {
@@ -630,15 +635,19 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .service-item {
+  .service-list {
     display: flex;
-    padding-left: 20px;
+    gap: 60px;
+    margin-top: 100px;
   }
 }
 
-.service-item:not(:first-child) {
-	margin-top: 70px;
+@media screen and (max-width: 768px) {
+  .service-item:not(:first-child) {
+    margin-top: 70px;
+  }
 }
+
 
 .service-img-inner {
   background-color: rgba(100, 100, 100, .1);
@@ -674,45 +683,15 @@ body {
   left: 15%;
 }
 
-@media screen and (min-width: 768px) {
-  .service-img-inner {
-    background-color: rgba(100, 100, 100, .1);
-    width: 170px;
-    height: 170px;
-    border-radius: 50%;
-    position: relative;
-    margin-left: 0;
-    transform: translateX(0);
-  }
-
-  .service-img1 {
-    width: 96px;
-    height: 77px;
-    position: absolute;
-    top: 26%;
-    left: 20%;
-  }
-  
-  .service-img2 {
-    width: 115px;
-    height: 77px;
-    position: absolute;
-    top: 26%;
-    left: 16%;
-  }
-  
-  .service-img3 {
-    width: 123px;
-    height: 71px;
-    position: absolute;
-    top: 29%;
-    left: 15%;
-  }
-}
-
 .service-item-ttl {
 	font-size: 22px;
 	font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .service-item-ttl {
+    text-align: center;
+  }
 }
 
 .service-item-content {
@@ -727,13 +706,7 @@ body {
 	padding-top: 45px;
   text-align: center;
 }
-@media screen and (min-width: 768px) {
-  .service-txt-wrapper {
-    padding-top: 45px;
-    padding-left: 30px;
-    text-align: left;
-  }
-}
+
 
 /* --skill-- */
 
@@ -881,7 +854,7 @@ table {
   padding: 10px;
 }
 .tbl-r02 td {
-　border: solid 1px #ccc;
+  border: solid 1px #ccc;
   padding: 10px;
   font-size: 20px;
 }
@@ -896,7 +869,7 @@ table {
   }
   .tbl-r02 th,
   .tbl-r02 td {
-　border-bottom: none;
+  border-bottom: none;
     display: block;
     width: 100%;
   }
@@ -1264,8 +1237,8 @@ table {
 
 @media screen and (min-width: 1200px) {
   .case_section-inner {
-    /* display: flex;
-    justify-content: space-between; */
+    display: flex;
+
     max-width: var(--content-width-lg);
     margin: 0 auto;
   }
@@ -1297,6 +1270,7 @@ table {
 @media screen and (min-width: 1200px) {
   .case_section_content {
     width: 50%;
+    margin-left: 30px;
   }
 }
 

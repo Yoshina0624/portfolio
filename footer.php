@@ -5,19 +5,19 @@
     </ul>
     <ul class="l_footer_list">
     <li class="l_footer_item">
-        <a href="index.html" class="l_footer_link">TOP</a>
+        <a href="<?php echo esc_url( home_url('/service') ); ?>" class="l_footer_link">SERVICE</a>
     </li>
     <li class="l_footer_item">
-        <a href="skill.html" class="l_footer_link">SKILL</a>
+        <a href="<?php echo esc_url( home_url( '/skill' ) ); ?>" class="l_footer_link">SKILL</a>
     </li>
     <li class="l_footer_item">
-        <a href="work.html" class="l_footer_link">WORKS</a>
+        <a href="<?php echo esc_url( home_url( '/works' ) ); ?>" class="l_footer_link">WORKS</a>
     </li>
     <li class="l_footer_item">
-        <a href="faq.html" class="l_footer_link">FAQ</a>
+        <a href="<?php echo esc_url( home_url( '/faq' ) ); ?>" class="l_footer_link">FAQ</a>
     </li>
     <li class="l_footer_item">
-        <a href="contact.html" class="l_footer_link">CONTACT</a>
+        <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="l_footer_link">CONTACT</a>
     </li>
     </ul>
     <p class="l_footer-copyright">&copy; 2023 YOFUKASHI</p>
@@ -25,7 +25,6 @@
 
     <!-- jquery cdn -->
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-
 
     <!-- js -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

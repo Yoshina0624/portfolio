@@ -13,7 +13,7 @@
                     <ul class="skill_list">
                             <li class="skill_item skill_html">
                                 <img 
-                                src="img\Icon awesome-html5.png"
+                                src="<?php echo esc_url( get_template_directory_uri() . '/img/Icon awesome-html5.png' ); ?>"
                                 width="150"
                                 height="158"
                                 class="skill_img skill_img_html"
@@ -22,7 +22,7 @@
                             </li>
                             <li class="skill_item skill_css">
                                 <img 
-                                src="img\Icon awesome-css3-alt.png" 
+                                src="<?php echo esc_url( get_template_directory_uri() . '/img/Icon awesome-css3-alt.png' ); ?>" 
                                 width="151"
                                 height="158"
                                 class="skill_img skill_img_css"
@@ -31,7 +31,7 @@
                             </li>
                             <li class="skill_item skill_js">
                                 <img 
-                                src="img\Icon simple-javascript.png" 
+                                src="<?php echo esc_url( get_template_directory_uri() . '/img/Icon simple-javascript.png' ); ?>" 
                                 width="158"
                                 height="158"
                                 class="skill_img skill_img_js"
@@ -40,25 +40,25 @@
                             </li>
                             <li class="skill_item skill_sass">
                                 <img 
-                                src="img\Icon awesome-sass.png" 
+                                src="<?php echo esc_url( get_template_directory_uri() . '/img/Icon awesome-sass.png' ); ?>" 
                                 width="191"
                                 height="143"
                                 class="skill_img skill_img_sass"
                                 alt="">
-                                <p class="skill_content">SaSS</p>
+                                <p class="skill_content">Sass</p>
                             </li>
                             <li class="skill_item skill_wp">
                                 <img 
-                                src="img\Icon awesome-wordpress-simple.png"
+                                src="<?php echo esc_url( get_template_directory_uri() . '/img/Icon awesome-wordpress-simple.png' ); ?>"
                                 width="150"
                                 height="150"
                                 class="skill_img skill_img_wp"
                                 alt="">
-                                <p class="skill_content">WORDPRESS</p>
+                                <p class="skill_content">WordPress</p>
                             </li>
                             <li class="skill_item skill_jquery">
                                 <img 
-                                src="img\Icon simple-jquery.png"
+                                src="<?php echo esc_url( get_template_directory_uri() . '/img/Icon simple-jquery.png' ); ?>"
                                 width="145"
                                 height="143"
                                 class="skill_img skill_img_jquery"

@@ -29,7 +29,7 @@
 <main class="l_main">
     <section id="service" class="section service">
     <div class="l_container">
-        <h2 class="title">SERVICE</h2>
+        <h2 class="title service-ttl">SERVICE</h2>
         <div class="service-contents">
             <ul class="service-list">
                 <li class="service-item">
@@ -60,7 +60,7 @@
                         <div class="service-txt-wrapper">
                             <p class="service-item-ttl">コーディング</p>
                             <p class="service-item-content">
-                                デザイン案をもとに、HTML/CSS、JavaScript等でWEBサイトを構築していきます。
+                                デザイン案をもとに、HTML、CSS、JavaScript等でWEBサイトを構築していきます。
                             </p>
                         </div>
                 </li>
@@ -87,10 +87,8 @@
 </section>
 <!-- /service -->
 
-
-
 <section id="work" class="section work">
-    <h2 class="title">WORK</h2>
+    <h2 class="title work-ttl">WORKS</h2>
 
     <div class="m_slider">
         <div class="about_slider-item">
@@ -108,7 +106,7 @@
 </section>
 
 <section id="about" class="section about">
-    <h2 class="title">ABOUT</h2>
+    <h2 class="title about-ttl">ABOUT</h2>
     <div class="about-wrapper">
         <div class="about_img_wrapper">
             <img
