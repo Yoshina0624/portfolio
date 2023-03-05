@@ -39,7 +39,7 @@
                             width="96"
                             height="77"
                             class="service-img service-img1"
-                            alt="企画・デザイン">
+                            alt="プランニング・デザイン">
                         </div>
                         <div class="service-txt-wrapper">
                             <p class="service-item-ttl">企画・デザイン</p>
