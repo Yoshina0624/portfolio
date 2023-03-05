@@ -1,7 +1,7 @@
 <footer class="l_footer">
     <p class="l_footer_logo">Keisuke Saito</p>
     <ul class="l_sns-list">
-    <li class="l_sns-item"><a href="https://twitter.com/keke_zp51"><img src="img\twitterのアイコン素材 その2.svg" class="twitter" alt=""></a></li>
+    <li class="l_sns-item"><a href="https://twitter.com/keke_zp51"><img src="<?php echo esc_url( get_template_directory_uri() . '/img/twitterのアイコン素材_その2.svg' ); ?>" class="twitter" alt=""></a></li>
     </ul>
     <ul class="l_footer_list">
     <li class="l_footer_item">
@@ -30,6 +30,8 @@
     <!-- js -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/slider.js"></script>
+
+    <?php wp_footer(); ?>
 </body>
 
 </html>
