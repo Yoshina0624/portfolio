@@ -29,7 +29,7 @@
 <main class="l_main">
     <section id="service" class="section service">
     <div class="l_container">
-        <h2 class="title service-ttl">SERVICE</h2>
+        <h2 class="title">SERVICE</h2>
         <div class="service-contents">
             <ul class="service-list">
                 <li class="service-item">
@@ -88,7 +88,7 @@
 <!-- /service -->
 
 <section id="work" class="section work">
-    <h2 class="title work-ttl">WORKS</h2>
+    <h2 class="title">WORKS</h2>
 
     <div class="m_slider">
         <div class="about_slider-item">
@@ -106,7 +106,7 @@
 </section>
 
 <section id="about" class="section about">
-    <h2 class="title about-ttl">ABOUT</h2>
+    <h2 class="title">ABOUT</h2>
     <div class="about-wrapper">
         <div class="about_img_wrapper">
             <img
@@ -154,6 +154,22 @@
         </table>
     </div>
 </section>
+
+<div class="m_cta">
+      <h2 class="m_cta_copy">お問い合わせはこちら</h2>
+      <p class="m_cta_txt">
+        スタートアップのデジタルマーケについて<br />
+        お気軽にご相談ください
+      </p>
+
+      <div class="m_btn-wrapper m_btn-wrapper__center m_cta_btn-wrapper">
+        <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="m_btn m_btn__md m_btn__cta">
+          無料で相談する
+        </a>
+      </div>
+      <!-- /.m_btn-wrapper -->
+    </div>
+    <!-- /.m_cta -->
 </main>
 
 <?php get_footer(); ?>
