@@ -92,15 +92,98 @@
 
     <div class="m_slider">
         <div class="about_slider-item">
-            <a href="https://keke-sito.com/river_recruit/">
-            <img src="img/river_about_kv_square.jpg" alt="">
+          <div class="works_contents js_h-slide">
+            <div class="case_section-inner ">
+              <div class="case_section_wrapper">
+                <a href="https://keke-sito.com/river_recruit/">
+                <img
+                  src="<?php echo esc_url( get_template_directory_uri() . '/img/3.jpg' ); ?>"
+                  width="1016"
+                  height="814"
+                  alt="音楽活動家のポートフォリオサイト"
+                  class="case_section_img"
+                />
+              </a>
+              </div>
+              <!-- /.case_section_wrapper -->
+              <div class="case_section_content">
+                <p class="case_section-num">
+                </p>
+                <h2 class="case_section_title">
+                    音楽活動家のポートフォリオサイト(スマホ専用)
+                </h2>
+                <p class="case_section_txt">
+                    Planning / Design / HTML&CSS / JavaScript
+                </p>
+                <p class="case_section_txt">制作期間 : 14日</p>
+                <p class="case_section_txt">
+                    音楽活動グループRIVER様のWebサイトを作成させていただきました。プランニングからデザイン、コーディングを担当させていただきました。
+                </p>
+              </div>
+              <!-- /.case_section_content -->
+            </div>
+            <!-- /.case_section-inner -->
+          </div>
+        </div>
+        <div class="about_slider-item">
+            <div class="case_section-inner ">
+              <div class="case_section_wrapper">
+                <a href="https://keke-sito.com/mosya_free/service_site/">
+                <img
+                  src="<?php echo esc_url( get_template_directory_uri() . '/img/模写修行セキュリティ会社.png' ); ?>"
+                  width="1016"
+                  height="814"
+                  alt="仮想セキュリティ会社ホームページ"
+                  class="case_section_img"
+                />
+              </a>
+              </div>
+              <!-- /.case_section_wrapper -->
+              <div class="case_section_content">
+                <h2 class="case_section_title">
+                  仮想サービス会社ホームページ
+                </h2>
+                <p class="case_section_txt">
+                    HTML&CSS
+                </p>
+                <p class="case_section_txt">制作期間 : 約4時間</p>
+                <p class="case_section_txt">
+                    <a href="https://moshashugyo.com/">模写修行</a>で配布されているデザインのコーディングを行いました。<br>デザインはしていません。
+                </p>
+              </div>
+              <!-- /.case_section_content -->
+            </div>
+            <!-- /.case_section-inner -->
+        </div>
+        <div class="about_slider-item">
+          <div class="case_section-inner ">
+            <div class="case_section_wrapper">
+              <a href="https://keke-sito.com/mosya_free/burger_shop/">
+              <img
+                src="<?php echo esc_url( get_template_directory_uri() . '/img/burger_shop_.png' ); ?>"
+                width="1016"
+                height="814"
+                alt="ハンバーガーショップのホームページ"
+                class="case_section_img"
+              />
             </a>
-        </div>
-        <div class="about_slider-item">
-            
-        </div>
-        <div class="about_slider-item">
-            
+            </div>
+            <!-- /.case_section_wrapper -->
+            <div class="case_section_content">
+              <h2 class="case_section_title">
+                仮想ハンバーガーショップのホームページ
+              </h2>
+              <p class="case_section_txt">
+                  HTML&CSS
+              </p>
+              <p class="case_section_txt">制作期間 : 約4時間</p>
+              <p class="case_section_txt">
+                  <a href="https://moshashugyo.com/">模写修行</a>で配布されているデザインのコーディングを行いました。<br>デザインはしていません。
+              </p>
+            </div>
+            <!-- /.case_section_content -->
+          </div>
+          <!-- /.case_section-inner -->
         </div>
     </div>
 </section>
