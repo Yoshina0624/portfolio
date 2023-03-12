@@ -140,6 +140,8 @@
               </div>
               <!-- /.case_section_wrapper -->
               <div class="case_section_content">
+              <p class="case_section-num">
+                </p>
                 <h2 class="case_section_title">
                   仮想サービス会社ホームページ
                 </h2>
@@ -170,6 +172,8 @@
             </div>
             <!-- /.case_section_wrapper -->
             <div class="case_section_content">
+            <p class="case_section-num">
+                </p>
               <h2 class="case_section_title">
                 仮想ハンバーガーショップのホームページ
               </h2>
