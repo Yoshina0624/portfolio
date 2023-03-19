@@ -57,6 +57,15 @@ $news_query = new WP_Query(
   <?php endif; ?>
 <?php wp_reset_postdata(); ?>
 
+<?php 
+the_posts_pagination(array(
+  'screen_reader_text' => ' ',
+  'prev_text' => '',
+  'next_text' => ''
+)); 
+?>
+<!-- /.pagination -->
+
 <div class="m_cta">
       <h2 class="m_cta_copy">お問い合わせはこちら</h2>
       <p class="m_cta_txt">
