@@ -13,8 +13,6 @@ $news_query = new WP_Query(
 	)
 );
 ?>
-
-
 <main class="l_main">
     <div class="l_contents">
         <h2 class="title">WORKS</h2>
