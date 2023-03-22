@@ -24,10 +24,8 @@ $news_query = new WP_Query(
                 <div class="case_contents js_h-slide">
                   <div class="case_section-inner ">
                     <div class="case_section_wrapper">
-                      <a href="https://keke-sito.com/river_recruit/">
-                    
+        
                       <?php the_post_thumbnail(null, array('class' => 'case_section_img')); ?>
-                    </a>
                     </div>
                     <!-- /.case_section_wrapper -->
                     <div class="case_section_content">
