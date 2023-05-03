@@ -6,6 +6,7 @@
 <!-- /.m_page-top -->
 
 <div class="top_kv" id="top">
+  <img src="img/keisuke_standing.jpg" alt="">
     <div class="top_kv-inner l_container-lg">
     <div class="top_kv_box">
         <p class="top_kv_copy js_copy">
@@ -83,6 +84,13 @@
                 </li>
             </ul>
         </div>
+
+        <div class="view_btn">
+          <button class="top_obsession-btn__pc">
+                  <a href="<?php echo esc_url( home_url("/service") ); ?>" class="top_obsession-btn__link__pc">View More</a>
+                </button>
+        </div>
+
     </div>
 </section>
 <!-- /service -->
@@ -190,6 +198,12 @@
           <!-- /.case_section-inner -->
         </div>
     </div>
+
+    <div class="view_btn">
+          <button class="top_obsession-btn__pc">
+                  <a href="<?php echo esc_url( home_url("/works") ); ?>" class="top_obsession-btn__link__pc">View More</a>
+                </button>
+        </div>
 </section>
 
 <section id="about" class="section about">

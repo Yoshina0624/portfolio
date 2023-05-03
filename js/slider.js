@@ -1,12 +1,10 @@
 $(function() {
     $('.m_slider').slick({
-        autoDisplay: true,
-        autoDisplaySpeed: 5000,
+        autoplay: true,
+        autoplaySpeed: 7000,
         infinite:true,
         dots: true,
     });
 
 
 });
-
-
